@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  background-color: #1b1b1b;
+}
+
+.audio-player {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  outline-style: none;
+}
+
+canvas {
+  margin: 8px 0px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.canvas-div {
+  margin: auto;
+  width: min-content;
+}
+
+input {
+  color: white;
+}
