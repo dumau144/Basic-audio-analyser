@@ -32,7 +32,7 @@ const start = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.beginPath();
     ctx.moveTo(0, dataArray[0]);
-    for (let i = 0; i < analyser.frequencyBinCount; i++) {
+    for (let i = 1; i < analyser.frequencyBinCount; i++) {
       ctx.lineTo(i, dataArray[i]);
     };
     ctx.stroke();
